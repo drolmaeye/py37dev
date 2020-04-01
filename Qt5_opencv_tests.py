@@ -61,6 +61,7 @@ class App(QWidget):
         else:
             self.th.cap.release()
             self.th.stop()
+            
         # th = Thread(self)
         # th.changePixmap.connect(self.setImage)
 
