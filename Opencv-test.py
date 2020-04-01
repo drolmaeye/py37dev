@@ -14,6 +14,7 @@ ts = PV('S:IOC:timeOfDayForm1SI')
 # tk = PV('IDBPTC10:Channel:user2_VAL')
 
 out = cv2.VideoWriter('output.avi', fourcc, 30.0, (640, 480))
+out2 = cv2.VideoWriter('output.avi', fourcc, 30.0, (640, 480))
 
 while camera.isOpened():
 
